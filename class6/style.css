@@ -1,0 +1,24 @@
+
+div{
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+    border: 2px solid #a51919;
+    /* margin: 100px, 0px 0px 0px; */
+    padding: 10px;
+}
+
+.text{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.green{
+    width: 550px;
+    height: 350px;
+    background-color: green;
+}
