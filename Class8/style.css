@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common css */
+
+.main{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    margin: 0 auto;
+}
+.a{
+    width: 500px;
+    height: 600px;
+    background-color: green;
+    float: left;
+}
+.b{
+    width: 100px;
+    height: 600px;
+    background-color: blue;
+    float: left;
+}
+
+.a .aa{
+    height: 200px;
+    background-color: aqua;
+    
+}
+.a .aa .aaa{
+    width: 33.33%;
+    height: 200px;
+    background-color: #ce9797;
+    float: left;
+}
+.a .aa .aab{
+    width: 33.33%;
+    height: 200px;
+    background-color: #db23d1;
+    float: left;
+}
+.a .aa .aac{
+    width: 33.33%;
+    height: 200px;
+    background-color: #053d4c;
+    float: left;
+}
+.ab{
+    height: 200px;
+    background-color: salmon;
+}
+
+.a .ab .aba{
+    height: 200px;
+    width: 50%;
+    background-color: #032794;
+    float: left;
+}
+.a .ab .abb{
+    height: 200px;
+    width: 50%;
+    background-color: yellow;
+    float: left;
+}
+.a .ab .abb .abaa{
+    height: 50%;
+    /* width: 50%; */
+    background-color: gray;
+}
+.a .ab .abb .abab{
+    height: 50%;
+    /* width: 50%; */
+    background-color: rgb(227, 216, 216);
+}
+.a .ac{
+    height: 200px;
+    background-color: black;  
+}
+
+.a .ac .aca{
+    width: 20%;
+    height: 200px;
+    background-color: #804848;
+    float: left;
+}
+.a .ac .acb{
+    width: 20%;
+    height: 200px;
+    background-color: #332a2a;
+    float: left;
+}
+.a .ac .acc{
+    width: 20%;
+    height: 200px;
+    background-color: #3a592f;
+    float: left;
+}
+.a .ac .acd{
+    width: 20%;
+    height: 200px;
+    background-color: #473082;
+    float: left;
+}
+.a .ac .ace{
+    width: 20%;
+    height: 200px;
+    background-color: #9304a3;
+    float: left;
+}
+
+
+h1{
+    text-align: center;
+}
