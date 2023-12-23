@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: white;
+}
+/* common css ends */
+
+.menu-bg{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+/* Menu image */
+.logo{
+    height: 60px;
+    float: left; 
+    /* background-color: rgb(63, 182, 63); */
+}
+
+/* lists items */
+.ls-items{
+    height: 60px;
+    width: 70%;
+    float: left;
+    /* background-color: rgb(63, 182, 63); */
+}
+
+.ls-items ul{
+    float: right;
+}
+
+.ls-items ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.ls-items ul li{
+    padding: 15px 15px;
+    position: relative;
+}
+
+.ls-items ul li:hover{
+    background-color: black;
+    color: wheat;
+}
+
+.ls-items ul li ul{
+    position: absolute;
+    background-color: black;
+    top: 60px;
+    /* width: 80px; */
+}
+.ls-items ul li ul li{
+    display: block;
+}
+
+.ls-items ul li ul li a{
+    line-height: 50px;
+}

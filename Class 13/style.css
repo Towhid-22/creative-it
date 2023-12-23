@@ -1,0 +1,18 @@
+/* All common CSS start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.cntainer{
+    max-width: 1320px;
+}
+
+/* All common CSS end */
+
+nav{
+    background: gray;
+    height: 80px;
+}
