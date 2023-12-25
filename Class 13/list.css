@@ -1,0 +1,39 @@
+li, a{
+    list-style: none;
+}
+/* .list-items{
+    position: relative;
+} */
+.list-items ul{
+    text-align: center;
+}
+.list-items ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.list-items ul li:hover{
+    color: white;
+    background-color: green;
+}
+.service-list{
+    width: 80%;
+    margin: 0 auto;
+}
+.list-items ul li{
+    position: relative
+    ;
+}
+
+.services-content{
+    float: left;
+    width: 100%;
+}
+.list{
+    display: none;
+    position: absolute;
+}
+.list-items ul li:hover .list{
+    display: block;
+}

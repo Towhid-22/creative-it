@@ -3,10 +3,380 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Class 13</title>
+    <title>Dropdown Menu</title>
 </head>
 <body>
-    <nav class="container"></nav>
+    <nav class="menu">
+        <div class="menu-bg container">
+            <div class="logo">
+                <img src="./Microsoft/microsoft_logo.png" alt="">
+            </div>
+            <div class="list-items">
+                <ul>
+                    <li><a href="">Home </a></li>
+                    <li><a href="">About </a></li>
+                    <li><a href="">Blog<i class="fa-solid fa-angle-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="">HTML</a></li>
+                                <li><a href="">CSS</a></li>
+                                <li><a href="">JS<i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="child-sub-menu">
+                                        <ul>
+                                            <li><a href="">Node.js</a></li>
+                                            <li><a href="">Vue</a></li>
+                                            <li><a href="">Tailwind</a></li>
+                                            <li><a href="">GitHub</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="">React</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Services<i class="fa-solid fa-angle-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="">HTML</a></li>
+                                <li><a href="">CSS</a></li>
+                                <li><a href="">JS<i class="fa-solid fa-angle-down"></i></a>
+                                    <div class="child-sub-menu">
+                                        <ul>
+                                            <li><a href="">Node.js</a></li>
+                                            <li><a href="">Vue</a></li>
+                                            <li><a href="">Tailwind</a></li>
+                                            <li><a href="">GitHub</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="">React</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <!-- <div class="btn">
+                <button>Browse Course</button>
+            </div> -->
+            <div class="microsoft container">
+                <ul>
+                    <li>All Microsoft <i class="fa-solid fa-angle-down"></i>
+                        <div class="child-menu-3">
+                            <ul class="child-menu-3-content">
+                                <h4>Software</h4>
+                                <li>Windows Apps</li>
+                                <li>AI</li>
+                                <li>Outlook</li>
+                                <li>OneDrive</li>
+                                <li>Microsoft Teams</li>
+                                <li>OneNote</li>
+                                <li>Microsoft Edge</li>
+                                <li>Skype</li>
+                            </ul>
+                            <ul class="child-menu-3-content">
+                                <h4>Software</h4>
+                                <li>Windows Apps</li>
+                                <li>AI</li>
+                                <li>Outlook</li>
+                                <li>OneDrive</li>
+                                <li>Microsoft Teams</li>
+                                <li>OneNote</li>
+                                <li>Microsoft Edge</li>
+                                <li>Skype</li>
+                            </ul>
+                            <ul class="child-menu-3-content">
+                                <h4>Software</h4>
+                                <li>Windows Apps</li>
+                                <li>AI</li>
+                                <li>Outlook</li>
+                                <li>OneDrive</li>
+                                <li>Microsoft Teams</li>
+                                <li>OneNote</li>
+                                <li>Microsoft Edge</li>
+                                <li>Skype</li>
+                            </ul>
+                            <ul class="child-menu-3-content">
+                                <h4>Software</h4>
+                                <li>Windows Apps</li>
+                                <li>AI</li>
+                                <li>Outlook</li>
+                                <li>OneDrive</li>
+                                <li>Microsoft Teams</li>
+                                <li>OneNote</li>
+                                <li>Microsoft Edge</li>
+                                <li>Skype</li>
+                            </ul>
+                            <ul class="child-menu-3-content">
+                                <h4>Software</h4>
+                                <li>Windows Apps</li>
+                                <li>AI</li>
+                                <li>Outlook</li>
+                                <li>OneDrive</li>
+                                <li>Microsoft Teams</li>
+                                <li>OneNote</li>
+                                <li>Microsoft Edge</li>
+                                <li>Skype</li>
+                            </ul>
+                            <ul class="child-menu-3-content">
+                                <h4>Software</h4>
+                                <li>Windows Apps</li>
+                                <li>AI</li>
+                                <li>Outlook</li>
+                                <li>OneDrive</li>
+                                <li>Microsoft Teams</li>
+                                <li>OneNote</li>
+                                <li>Microsoft Edge</li>
+                                <li>Skype</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="clr"></div>
+    <section id="banner">
+        <div class="container banner">
+            <div class="banner-text">
+                <p><a href="#">Buy now, pay later. As low as 0% APR +free 60-day returns </a><i class="fas fa-angle-right"></i></p>
+            </div>
+            <div class="banner-img">
+                <div class="text">
+                    <p><a href="#">Countdown Sale</a></p>
+                    <h1>Save up to $100 on select <br> Xbox Series X</h1>
+                    <p>Clock’s ticking—score amazing savings on the fastest, most powerful Xbox yet. Countdown Sale deal ends 12/31.</p>
+                    <button>Shop Xbox Series X</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="control-section container">
+        <div class="control">
+            <i class="fas fa-play-circle"></i>
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-dot-circle"></i>
+            <i class="fas fa-dot-circle"></i>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="accessories container">
+        <div class="products-details">
+            <img src="./Microsoft/surfacelogo1.png" alt="">
+            <p>Shop Surface devices</p>
+        </div>
+        <div class="products-details">
+            <img src="./Microsoft/xbox.png" alt="">
+            <p>Shop Xbox games and consoles</p>
+        </div>
+        <div class="products-details">
+            <img src="./Microsoft/accessories.png" alt="">
+            <p>Shop for accessories</p>
+        </div>
+        <div class="products-details">
+            <img src="./Microsoft/business.png" alt="">
+            <p>Shop for your business</p>
+        </div>
+        <div class="products-details">
+            <div class="img">
+                <img src="./Microsoft/microsoft_365.png" alt="">
+            </div>
+            <div class="details">
+                <p>Choose your Microsoft 365</p>
+            </div>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="products container">
+        <div class="products-list">
+            <img src="./Microsoft/surface.png" alt="">
+            <button style="display: block;">Countdown Sale</button>
+            <h3>Save up to $500 on Surface Pro 9</h3>
+            <p>Don’t delay—save now on the tablet flexibility you want and the laptop performance you need, all in one ultra-portable device. Offer ends 12/24.</p>
+            <a href="#">Shop Surface Pro 9 <i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="products-list">
+            <img src="./Microsoft/surface2.png" alt="">
+            <button style="display: block;">Countdown Sale</button>
+            <h3>Save up to $400 on Surface Laptop Studio 2</h3>
+            <p>Give the power to make it all possible with a cutting-edge screen and twice the computing power. Offer ends 12/24.</p>
+            <a href="#">Shop Surface Laptop Studio 2 <i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="products-list">
+            <img src="./Microsoft/surface3.png" alt="">
+            <button style="display: block;">Countdown Sale</button>
+            <h3>Save up to $60 on Xbox Series S</h3>
+            <p>Save big, right now on next-gen speed and performance. Select consoles on sale through 12/25.</p>
+            <a href="#">Shop Xbox Series S <i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="products-list">
+            <img src="./Microsoft/surface4.png" alt="">
+            <h3 style="margin-top: 49px;">Microsoft and Xbox Gift Cards</h3>
+            <p>From cutting-edge tech to the latest games, give the gift of endless possibility.</p>
+            <a href="#">Shop gift cards <i class="fas fa-angle-right"></i></a>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="middle-banner container">
+        <div class="middle-bn">
+            <a href="#">Countdown Sale</a>
+            <h3>Up to $44 off Xbox Wireless Controller</h3>
+            <p>Now's your chance—level up your play with a deal on select controllers designed for comfort, precision, and seamless sharing. Offer ends 12/25.</p>
+            <button>Shop Xbox Wireless Controller</button>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="products container">
+        <h1>For business</h1>
+        <div class="products-list business-list">
+            <img src="./Microsoft/SurfacePro9.png" alt="">
+            <h3>Surface Pro 9 for Business</h3>
+            <p>Get next-level security with Surface Pro 9 for Business and Windows 11 Pro to help ensure your information is protected.</p>
+            <a href="#">Surface Pro 9 for Business <i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="products-list business-list">
+            <img src="./Microsoft/MS_350.png" alt="">
+            <h3>15% off Microsoft 365 Business Standard</h3>
+            <p>Enjoy limited-time savings this holiday season on Microsoft 365 and build your business with ease, efficiency, and security.</p>
+            <a href="#">Shop Microsoft 365 Business Standard <i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="products-list business-list">
+            <img src="./Microsoft/AI_era.png" alt="">
+            <h3>Join the era of Ai</h3>
+            <p>Create, communicate, and code with the latest Microsoft AI solutions.</p>
+            <a href="#">Explore AI solutions <i class="fas fa-angle-right"></i></a>
+        </div>
+        <div class="products-list business-list">
+            <img src="./Microsoft/Cloud_PC.png" alt="">
+            <h3>Welcome to your Windows 365 Cloud PC</h3>
+            <p>Securely stream your Windows experience from the Microsoft cloud to any device.</p>
+            <a href="#">Get it today <i class="fas fa-angle-right"></i></a>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="last-section container">
+        <div class="bottom-card">
+            <img src="./Microsoft/culture.jpeg" alt="">
+            <div class="bottom-content">
+                <h2>Make your holiday a masterpiece</h2>
+                <p>No matter how you celebrate, AI in Microsoft Designer can help you turn your holiday stories into unique art. Explore the creative process and try it yourself.</p>
+                <button>Learn about the project</button>
+            </div>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="control-section container">
+        <div class="control">
+            <i class="fas fa-play-circle"></i>
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-dot-circle"></i>
+            <i class="fas fa-dot-circle"></i>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section class="social-media container">
+        <div class="media">Follow Microsoft</div>
+        <ul>
+            <li class="media-content"><i class="fa-brands fa-facebook"></i></li>
+            <li class="media-content"><i class="fa-brands fa-x-twitter"></i></li>
+            <li class="media-content"><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+    </section>
+    <!-- <div class="clr"></div>
+    <section class="back-top">
+        <div class="back">
+            Back to top
+        </div>
+    </section> -->
+    <div class="clr"></div>
+    <section class="list container">
+        <div class="service-list">
+            <div class="services-content">
+                <h2>What's new</h2>
+                <ul>
+                    <li><a href="#">Surface Laptop Studio 2</a></li>
+                    <li><a href="#">Surface Laptop Go 3</a></li>
+                    <li><a href="#">Surface Pro 9</a></li>
+                    <li><a href="#">Surface Laptop 5</a></li>
+                    <li><a href="#">Surface Studio 2+</a></li>
+                    <li><a href="#">Copilot in Windows</a></li>
+                    <li><a href="#">Microsoft 365</a></li>
+                    <li><a href="#">Windows 11 apps</a></li>
+                </ul>
+            </div>
+            <div class="services-content">
+                <h2>Microsoft Store</h2>
+                <ul>
+                    <li><a href="#">Account profile</a></li>
+                    <li><a href="#">Download Center</a></li>
+                    <li><a href="#">Microsoft Store support</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order tracking</a></li>
+                    <li><a href="#">Certified Refurbished</a></li>
+                    <li><a href="#">Microsoft Store Promise</a></li>
+                    <li><a href="#">Flexible Payments</a></li>
+                </ul>
+            </div>
+            <div class="services-content">
+                <h2>Education</h2>
+                <ul>
+                    <li><a href="#">Microsoft in education</a></li>
+                    <li><a href="#">Devices for education</a></li>
+                    <li><a href="#">Microsoft Teams for Education</a></li>
+                    <li><a href="#">Microsoft 365 Education</a></li>
+                    <li><a href="#">How to buy for your school</a></li>
+                    <li><a href="#">Educator training and development</a></li>
+                    <li><a href="#">Deals for students and parents</a></li>
+                    <li><a href="#">Azure for students</a></li>
+                </ul>
+            </div>
+            <div class="services-content">
+                <h2>Business</h2>
+                <ul>
+                    <li><a href="#">Microsoft Cloud</a></li>
+                    <li><a href="#">Microsoft Security</a></li>
+                    <li><a href="#">Dynamics 365</a></li>
+                    <li><a href="#">Microsoft 365</a></li>
+                    <li><a href="#">Microsoft Power Platform</a></li>
+                    <li><a href="#">Microsoft Teams</a></li>
+                    <li><a href="#">Microsoft Industry</a></li>
+                    <li><a href="#">Small Business</a></li>
+                </ul>
+            </div>
+            <div class="services-content">
+                <h2>Developer & IT</h2>
+                <ul>
+                    <li><a href="#">Azure</a></li>
+                    <li><a href="#">Developer Center</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Microsoft Learn</a></li>
+                    <li><a href="#">Microsoft Tech Community</a></li>
+                    <li><a href="#">Azure Marketplace</a></li>
+                    <li><a href="#">AppSource</a></li>
+                    <li><a href="#">Visual Studio</a></li>
+                </ul>
+            </div>
+            <div class="services-content">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About Microsoft</a></li>
+                    <li><a href="#">Company news</a></li>
+                    <li><a href="#">Privacy at Microsoft</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Diversity and inclusion</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="space"></div>
 </body>
 </html>

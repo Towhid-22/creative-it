@@ -1,0 +1,92 @@
+/* Common CSS start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+/* Common CSS end */
+.nav-bar{
+    /* background: #ffda79; */
+}
+
+/* Menu Background */
+.menu_bg{
+    width: 1320px;
+    margin: 0 auto;
+    height: 60px;
+    /* background: rgb(81, 117, 81); */
+}
+
+/* Navigation bar logo start */
+.logo{
+    width: 200px;
+    /* background: #0be881; */
+    float: left;
+}
+/* Navigation bar logo end */
+
+/* Menu items */
+.list-items{
+    float: left;
+    width: 943px;
+}
+.list-items ul{
+    text-align: center;
+}
+.list-items ul li{
+    display: inline-block;
+    padding-right: 25px;
+    font-size: 20px;
+    padding-top: 18px;
+    position: relative;
+}
+
+
+
+/* Menu items end */
+
+/* Submenu Start */
+.sub-menu{
+    width: 200px;
+    background: red;
+    position: absolute;
+    left: 0;
+    top: 39px;
+}
+
+.sub-menu ul{
+    text-align: left;
+}
+.sub-menu ul li{
+    display: block;
+}
+
+
+
+/* Submenu End */
+
+/* Button start */
+.nav-btn{
+    float: left;
+    /* width: 150px; */
+    padding-top: 10px;
+}
+
+.btn{
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #9b59b6;
+    color: white;
+}
+
+/* Button end */
